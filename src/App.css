@@ -1,38 +1,95 @@
-.App {
+.app-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding: 1rem;
+  background: #f0f4f8;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+header {
   text-align: center;
+  margin-bottom: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-weight: 700;
+  color: #2563eb;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.search-bar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 0.5rem;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-bottom: 1rem;
+}
+
+.search-bar input {
+  flex-grow: 1;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.search-bar button {
+  background-color: #2563eb;
   color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
 }
 
-.App-link {
-  color: #61dafb;
+.search-bar button:hover {
+  background-color: #1e40af;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.error {
+  color: #b91c1c;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.weather-panel {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+}
+
+.current-weather {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.current-weather img {
+  width: 80px;
+  height: 80px;
+}
+
+.temp {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.additional-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.7rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.additional-info div {
+  background: #eef4ff;
+  border-radius: 6px;
+  padding: 0.5rem 0.8rem;
+  text-align: center;
+  font-weight: 600;
 }
