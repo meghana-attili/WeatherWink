@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/WeatherWink/static/css/main.8099bbaa.css",
+    "main.js": "/WeatherWink/static/js/main.10250bb4.js",
+    "static/js/453.7a7a1492.chunk.js": "/WeatherWink/static/js/453.7a7a1492.chunk.js",
+    "index.html": "/WeatherWink/index.html",
+    "main.8099bbaa.css.map": "/WeatherWink/static/css/main.8099bbaa.css.map",
+    "main.10250bb4.js.map": "/WeatherWink/static/js/main.10250bb4.js.map",
+    "453.7a7a1492.chunk.js.map": "/WeatherWink/static/js/453.7a7a1492.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8099bbaa.css",
+    "static/js/main.10250bb4.js"
+  ]
+}
